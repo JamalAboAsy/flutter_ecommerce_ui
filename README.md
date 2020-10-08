@@ -1,16 +1,19 @@
-# flutter_app
+![Jamal](https://github.com/JamalAboAsy/cv/blob/main/images/jamal.png)
 
-A new Flutter application.
 
-## Getting Started
+# Weather ☁
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## What this project do
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+A weather application to find out the live weather data in the current location of the device as well as the weather for any city you can think of! .
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Finished App](https://github.com/JamalAboAsy/flutter_ecommerce_ui/blob/master/assets/images/flutter_01.png)
+![Finished App](https://github.com/JamalAboAsy/flutter_ecommerce_ui/blob/master/assets/images/flutter_02.png)
+![Finished App](https://github.com/JamalAboAsy/flutter_ecommerce_ui/blob/master/assets/images/flutter_03.png)
+
+
+
+
+
+![End Banner](https://github.com/JamalAboAsy/cv/blob/main/images/jamal.png)
