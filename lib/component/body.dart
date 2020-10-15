@@ -15,20 +15,28 @@ class Body extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SizedBox(height: 5,),
+        SizedBox(
+          height: 5,
+        ),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
           child: Center(
             child: Text(
-              'Women',
+              'مرحبا',
               style: Theme.of(context).textTheme.headline6.copyWith(
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Lalezar',
+                    fontSize: 20,
                   ),
             ),
           ),
         ),
-        Categories(),
         Expanded(
+          flex: 1,
+          child: Categories(),
+        ),
+        Expanded(
+          flex: 6,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
             child: GridView.builder(
@@ -44,7 +52,9 @@ class Body extends StatelessWidget {
                 press: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailsScreen(product: products[index],),
+                    builder: (context) => DetailsScreen(
+                      product: products[index],
+                    ),
                   ),
                 ),
               ),

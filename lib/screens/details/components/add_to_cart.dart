@@ -44,11 +44,13 @@ class AddToCart extends StatelessWidget {
               color: product.color,
               onPressed: () {},
               child: Text(
-                "Buy  Now".toUpperCase(),
+                // "Buy  Now".toUpperCase(),
+                "أشتري الأن",
                 style: TextStyle(
-                  fontSize: 17,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
+
                 ),
               ),
             ),

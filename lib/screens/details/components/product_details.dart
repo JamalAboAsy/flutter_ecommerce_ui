@@ -60,7 +60,7 @@ class ProductTitleWithPrice extends StatelessWidget {
           RichText(
             text: TextSpan(
               children: [
-                TextSpan(text: "Price\n"),
+                TextSpan(text: "السعر\n",style: TextStyle(fontWeight: FontWeight.bold)),
                 TextSpan(
                   text: "\$${product.price}",
                   style: Theme.of(context)

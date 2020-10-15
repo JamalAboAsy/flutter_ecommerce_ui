@@ -1,12 +1,9 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_app/models/Product.dart';
-import 'package:flutter_app/screens/details/components/cart_counter.dart';
 import 'package:flutter_app/screens/details/components/color_and_size.dart';
 import 'package:flutter_app/screens/details/components/counter_with_favicon.dart';
 import 'package:flutter_app/screens/details/components/product_details.dart';
-
 import '../../../constants.dart';
 import 'add_to_cart.dart';
 import 'description.dart';

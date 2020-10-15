@@ -1,26 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/constants.dart';
+
 class Categories extends StatefulWidget {
   @override
   _CategoriesState createState() => _CategoriesState();
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ['Hand Bag', 'Jewellery', 'Footer', 'Dresses'];
+  List<String> categories = ['حقائب', 'اكسسوارات', 'احذية', 'ملابس', 'اطفال'];
   int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: kDefaultPadding),
-      child: SizedBox(
-        height: 20,
-        child: ListView.builder(
-          scrollDirection: Axis.horizontal,
-          itemCount: categories.length,
-          itemBuilder: (context, index) => buildCategory(index),
-        ),
-      ),
-    );
+     padding: const EdgeInsets.symmetric(vertical: kDefaultPadding),
+     child: SizedBox(
+       height: 20,
+       child: ListView.builder(
+         scrollDirection: Axis.horizontal,
+         itemCount: categories.length,
+         itemBuilder: (context, index) => buildCategory(index),
+       ),
+     ),
+      );
   }
 
   Widget buildCategory(int index) => Padding(
@@ -47,7 +48,7 @@ class _CategoriesState extends State<Categories> {
               height: 2,
               width: 30,
               color: selectedIndex == index ? Colors.black : Colors.transparent,
-            )
+            ),
           ],
         ),
       ),
