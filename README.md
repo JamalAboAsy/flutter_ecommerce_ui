@@ -9,8 +9,8 @@ On our E-commerce app UI has two pages one for the product page which has a hori
 
 ![Finished App](https://github.com/JamalAboAsy/flutter_ecommerce_ui/blob/master/flutter_06.png)
 
-
-
-
-
-
+    _                       _      _    _         _
+    | | __ _ _ __ ___   __ _| |    / \  | |__   __| | ___
+ _  | |/ _` | '_ ` _ \ / _` | |   / _ \ | '_ \ / _` |/ _ \
+| |_| | (_| | | | | | | (_| | |  / ___ \| |_) | (_| | (_) |
+ \___/ \__,_|_| |_| |_|\__,_|_| /_/   \_\_.__/ \__,_|\___/
